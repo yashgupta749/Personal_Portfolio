@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Yash Gupta</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Yash Gupta</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <div class="circular-image">
+    <img src="Yash.jpg" alt="Circular Image">
+  </div>
+  <section id="profile">
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Yash Gupta</h1>
+      <p class="section__text__p2"> Software Developer/Competitive Programmer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2"
+          onclick="location.href='https://drive.google.com/file/d/1vAimuu4gJp6DoaX8xBTMwnXFqf67ZjqY/view'">
+          Resume
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='http://www.linkedin.com/in/yash-gupta-26277122b'" />
+        <img src="github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/yashgupta749'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="experience.png" alt="Experience icon" class="icon" />
+            <h3>Coding Stats</h3>
+            <p>3 Star at CodeChef </br> 500+DSA problem-solving</p>
+          </div>
+          <div class="details-container">
+            <img src="education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>Bachelor of Technology <br />Electronics and Communication Engineering<br />IET Lucknow</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Hey there! I'm Yash Gupta, Currently pursuing my Bachelor of Technology at the Institute of Engineering and
+            Technology, I've been consistently pushing boundaries in both academics and projects. With a solid track
+            record including an impressive 8.1 CGPA and a whopping 90% in CBSE Class XII, I'm dedicated to achieving
+            excellence in everything I do.
+
+            I'm well-versed in various programming languages like C/C++, Python, javascript and more. From creating
+            dynamic
+            projects like Lets talk and Crypto-Tracker to excelling in competitive coding on platforms such as
+            CodeChef and geeksforgeeks, I thrive on challenges that push my technical skills to the limit.
+
+            With a knack for problem-solving and strong leadership abilities, I'm always ready to take on new
+            opportunities and contribute meaningfully to any technical project. Let's connect and explore exciting
+            possibilities together!
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <section id="experience">
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Technical Skills</h2>
+          <div class="article-container">
+            <article>
+              <img src="c++.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>C++</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="html.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="css.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="Tailwind CSS.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Tailwind CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="javascript.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="python.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>PYTHON</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="React.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>React</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="ExpressJS.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>NodeJS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="MongoDB.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MongoDB</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="flutter.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>flutter</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Soft Skills</h2>
+          <div class="article-container">
+            <article>
+              <img src="checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>problem-solving</h3>
+
+              </div>
+            </article>
+            <article>
+              <img src="checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Public Speaking</h3>
+
+              </div>
+            </article>
+            <article>
+              <img src="checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>TeamWork</h3>
+
+              </div>
+            </article>
+            <article>
+              <img src="checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>LeaderShip</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="chat app.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Lets_talk</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/yashgupta749/Lets_talk'">
+              Github
+            </button>
+          </div>
+        </div>
+
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="crypto-tracker.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Crypto-Tracker</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/yashgupta749/crypto_tracker'">
+              Github
+            </button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="parmarh.png" alt="Project 4" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Social Website</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/Parmarth-IET-Lucknow/parmarth'">
+              Github
+            </button>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="todo.png" alt="Project 5" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Todo App</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/yashgupta749/javascript-notes/tree/main/projects/Todo_App'">
+              Github
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="project10.png" alt="Project 10" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Tic Tac Toe</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/yashgupta749/tic_tac_toe'">
+              Github
+            </button>
+
+          </div>
+        </div>
+
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="myntra clone.png" alt="Project 12" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Myntra Clone</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/yashgupta749/React/tree/main/Final-project'">
+              Github
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="project7.png" alt="Project 7" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">Calculator</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/yashgupta749/javascript-notes/tree/main/projects/calculator'">
+            Github
+          </button>
+        </div>
+      </div>
+
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="project9.png" alt="Project 9" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">FX Convertor</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/yashgupta749/javascript-notes/tree/main/projects/currency%20convertor'">
+            Github
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:guptayash9808@gmail.com">guptayash9808@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="http://www.linkedin.com/in/yash-gupta-26277122b">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+
+    <div></div>
+    <p class="end">Copyright &#169; 2024 Yash Gupta. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
